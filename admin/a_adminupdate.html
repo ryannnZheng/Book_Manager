@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Update Admin</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body
+		<div>
+			<ul>
+				<li><a href="logout.php">Logout</a></li>
+				<li><a href="admindashboard.html">Dashboard</a></li>
+				<li><b class="active">Library Manage System</>
+			</ul>
+		</div>
+         
+		<div class="container">
+			<img src="../css/2.jpg" style="width:100%;">
+			<div class = "centered" style = "border: 3px solid #f1f1f1">
+				<form method="post" action="a_adminupdate.php">
+					<div>
+					<h2>Enter New Admin Details</h2>
+					</div>
+					<div class="6u 12u$(xsmall)">
+						<input type="text" name="lid" placeholder="Enter LID of Admin" maxlength="5" required />
+					</div><br>
+					<div class="6u 12u$(xsmall)">
+						<input type="text" name="fname" placeholder="Enter Your Name" required />
+					</div><br>
+					<div class="6u 12u$(xsmall)">
+						<input type="text" name="dob" placeholder="Date of Birth (YYYY-MM-DD)" required />
+					</div><br>
+					<div class="6u$ 12u$(xsmall)">
+						<input type="password" name="passkey" placeholder="New Passkey" maxlength="5" required />
+					</div><br>
+					<div class="6u$ 12u$(xsmall)">
+						<input type="password" name="pwd" placeholder="Enter your passkey to confirm action" maxlength="5" required />
+					</div><br>
+					<div class="6u$ 12u$(xsmall)">
+						<input type="submit" value="UPDATE" />
+					</div>
+				</form>	
+			</div>
+		</div>		
+
+	</body>
+</html>

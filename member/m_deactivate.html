@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Deactivate Your Account</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><a href="logout.php">Logout</a></li>
+				<li><a href="memberdashboard.html">Dashboard</a></li>
+				<li><b class="active">Library Manage System</>
+			</ul>
+		</div>
+		
+		<div class="container">
+			  <img src="../css/3.jpg" style="width:100%;">
+			  <div class = "centered" style = "border: 3px solid #f1f1f1">
+				<form method="post" action="m_deactivate.php">
+					<div>
+						<h2>Deactivate Your Account</h2>
+						<p>Upon clicking 'NEXT', you will be logged out and redirected to the homepage. Your data will be erased from the database. A new account must be created for future activation.
+					</div>
+					<div class="6u$ 12u$(xsmall)">
+						<input type="password" name="passkey" placeholder="Enter Passkey To Confirm" required />
+					</div>
+					<br>
+					<div class="6u$ 12u$(xsmall)">
+						<input type="submit" value="NEXT" required />
+					</div>
+				</form>
+			  </div>
+		</div>						
+	</body>
+</html>

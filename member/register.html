@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Reistger</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+
+			<div>
+				<ul>
+					<li><a href="../homepage.html">Home</a></li>
+					<li><a href="../login.html">Login</a></li>
+					<li><b class="active" href="#about">Library Manage System</>
+				</ul>
+			</div>
+			
+			
+			<div class="container">
+			  <img src="../css/3.jpg" style="width:100%;">
+			  <div class = "centered" style = "border: 3px solid #f1f1f1">
+					<form method="post" action="register.php">
+						<div>
+						<p>Please fill out the following information</p>
+						</div>		
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="fname" placeholder="Enter Your Name" required />
+						</div><br>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="address" placeholder="Enter Your Address" required />
+						</div><br>
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="dob" placeholder="Date of Birth (YYYY-MM-DD)" required />
+						</div><br>
+						<div class="6u$ 12u$(xsmall)">
+							<input type="text" name="mid" placeholder="Create Your Member ID" maxlength="5" required />
+						</div><br>
+						<div class="6u$ 12u$(xsmall)">
+							<input type="password" name="passkey" placeholder="Create Passkey" maxlength="5" required />
+						</div><br>
+						<div class="6u$ 12u$(xsmall)">
+							<input type="submit" value="REGISTER" />
+						</div>
+					</form>
+			  </div>
+			</div>
+							
+	</body>
+</html>

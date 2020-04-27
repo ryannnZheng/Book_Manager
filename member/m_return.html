@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Return Books</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><a href="logout.php">Logout</a></li>
+				<li><a href="memberdashboard.html">Dashboard</a></li>
+				<li><b class="active">Library Manage System</>
+			</ul>
+		</div>
+		
+		<div class="container">
+			  <img src="../css/3.jpg" style="width:100%;">
+			  <div class = "centered" style = "border: 3px solid #f1f1f1">
+					<form method="post" action="m_return.php">
+						    <div>
+							<p>Return Book</p>
+							</div>
+							
+							<div class="6u 12u$(xsmall)">
+								<input type="text" name="bid" placeholder="Enter Book ID" required />
+							</div><br>
+							<div class="6u$ 12u$(xsmall)">
+								<input type="password" name="passkey" placeholder="Enter Passkey To Confirm Action" required />
+							</div>
+							<br>
+							<div class="6u$ 12u$(xsmall)">
+								<input type="submit" value="RETURN" required />
+							</div>
+					</form>
+			  </div>
+		</div>			
+	</body>
+</html>
+
+
+

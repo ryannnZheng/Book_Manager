@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Update Book</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div>
+			<ul>
+				<li><a href="logout.php">Logout</a></li>
+				<li><a href="admindashboard.html">Dashboard</a></li>
+				<li><b class="active">Library Manage System</>
+			</ul>
+		</div>
+		
+		<div class="container">
+			<img src="../css/2.jpg" style="width:100%;">
+			<div class = "centered" style = "border: 3px solid #f1f1f1">
+				<div>
+				<h2>Enter New Book Details</h2>
+				</div>
+				<form method="post" action="a_bookupdate.php">
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="BID" placeholder="Enter Existing Book ID" required />
+				</div><br>
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="bname" placeholder="Book Name" required />
+				</div><br>
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="author" placeholder="Author" required />
+				</div><br>
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="genre" placeholder="Genre" required />
+				</div><br>
+				<div class="6u$ 12u$(xsmall)">
+					<input type="text" name="pid" placeholder="Publisher ID" maxlength="5" required />
+				</div><br>
+				<div class="6u 12u$(xsmall)">
+					<input type="text" name="pname" placeholder="Publisher Name" required />
+				</div><br>
+				<div class="6u$ 12u$(xsmall)">
+					<input type="submit" value="UPDATE" />
+				</div>
+				</form>
+			</div>
+		</div>		
+									
+	</body>
+</html>
